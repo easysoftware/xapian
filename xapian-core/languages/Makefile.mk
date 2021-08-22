@@ -12,6 +12,7 @@ snowball_algorithms =\
 	languages/armenian.sbl\
 	languages/basque.sbl\
 	languages/catalan.sbl\
+	languages/czech.sbl\
 	languages/danish.sbl\
 	languages/dutch.sbl\
 	languages/english.sbl\
@@ -65,6 +66,7 @@ dist_stopword_DATA = $(snowball_stopwords:.txt=.list)
 
 snowball_stopwords = \
 	languages/stopwords/arabic.txt\
+	languages/stopwords/czech.txt\
 	languages/stopwords/danish.txt\
 	languages/stopwords/dutch.txt\
 	languages/stopwords/english.txt\

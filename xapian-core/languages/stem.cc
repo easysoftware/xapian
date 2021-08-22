@@ -119,6 +119,8 @@ stem_internal_factory(const std::string& language, bool fallback)
 		return new InternalStemTamil;
 	    case TURKISH:
 		return new InternalStemTurkish;
+		case CZECH:
+		return new InternalStemCzech;
 	}
     }
     if (fallback || language.empty())
